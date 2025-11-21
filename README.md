@@ -3,8 +3,6 @@ Repository: UK Biobank moderated-mediation analyses
 
 Contents
 - UKBB_ModeratedMediation.R : Analysis script used to produce the manuscript results (does not include raw data).
-- output/ : Summary outputs (parameter estimate CSVs and indirects) and a minimal session info summary.
-- REPRODUCIBILITY_GUIDE.md : Short guide describing exactly which parameters were reported and bootstrap settings.
 
 Data access
 - Raw data are UK Biobank and are not included. To reproduce the analysis you must obtain UKB access and place the CSV (named ukbb_full_matched_hitop_clean_0825.csv) in your Downloads folder or data/ directory as described in the script.
