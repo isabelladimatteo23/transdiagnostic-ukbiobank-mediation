@@ -1,0 +1,9 @@
+# Do not commit raw data or workspace files
+data/
+ukbb_full_matched_hitop_clean_0825.csv
+*.RData
+.Rhistory
+
+# Optional: do not publish raw RDS fits
+output/*_fit.rds
+output/sessionInfo_full.rds
